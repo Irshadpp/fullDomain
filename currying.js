@@ -12,6 +12,8 @@ function mul(x){
     }
 }
 
+
+
 const mulByTwo = mul(2);
 const mulByFive = mul(5)
 console.log(mulByTwo(10))
