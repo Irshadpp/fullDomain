@@ -18,5 +18,3 @@ const mulByTwo = mul(2);
 const mulByFive = mul(5)
 console.log(mulByTwo(10))
 console.log(mulByFive(10))
-
-// jkajdsfjlsdk
