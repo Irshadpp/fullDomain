@@ -7,6 +7,20 @@
 </head>
 <body>
     <script type="module" src="./promise.js"></script>
-    <h1>helloooo</h1>
+    <h1 id="timer"></h1>
+    <button onclick="stop()">stop</button>
+
+    <script>
+        const timer = setInterval(timerFn, 1000);
+
+function timerFn(){
+    const data = new Date();
+    document.getElementById('timer').innerHTML = data.toLocaleTimeString();
+}
+        function stop(){
+    console.log('hello')
+    clearInterval(timer);
+}
+    </script>
 </body>
 </html>
